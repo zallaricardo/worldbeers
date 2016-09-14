@@ -1,0 +1,8 @@
+applications:
+- path: target/beeroftheworld.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: worldbeers
+  host: worldbeers
+  disk_quota: 1024M
